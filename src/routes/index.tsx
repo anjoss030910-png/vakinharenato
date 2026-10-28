@@ -1,6 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
 import renato from "@/assets/renato.webp.asset.json";
+import renatoHospital from "@/assets/renato-hospital.webp.asset.json";
 import { CONFIRMED_TOTAL, DONATIONS, FUNDS_USE, GOAL, LAST_UPDATE, UPDATES, brl } from "@/lib/campaign";
 
 const TITLE = "Juntos pelo Renato Anjos — Campanha solidária";
@@ -75,7 +76,7 @@ function Index() {
         <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-5 py-3">
           <a href="#topo" className="flex min-w-0 items-center gap-2 font-display text-lg font-semibold text-primary">
             <HeartIcon className="h-5 w-5 shrink-0 text-leaf" />
-            <span className="truncate">Juntos pelo Renato Anjos</span>
+            <span className="truncate">VAKINHA</span>
           </a>
           <nav aria-label="Principal" className="hidden items-center gap-7 md:flex">
             {NAV.map((n) => (
@@ -124,11 +125,11 @@ function Index() {
             </p>
             <figure className="mt-7 overflow-hidden rounded-3xl shadow-card">
               <img
-                src={renato.url}
-                alt="Renato Anjos, de 12 anos, sorrindo"
-                className="aspect-[4/3] w-full object-cover object-[70%_60%]"
+                src={renatoHospital.url}
+                alt="Renato Anjos, de 12 anos, sorrindo no hospital, recebendo carinho"
+                className="aspect-[4/3] w-full object-cover"
                 width={984}
-                height={1143}
+                height={740}
               />
             </figure>
           </div>
@@ -300,7 +301,7 @@ function Index() {
       <footer className="border-t border-border bg-background py-10">
         <div className="mx-auto flex max-w-6xl flex-col gap-6 px-5 md:flex-row md:items-start md:justify-between">
           <div>
-            <p className="font-display text-lg font-semibold text-primary">Juntos pelo Renato Anjos</p>
+            <p className="font-display text-lg font-semibold text-primary">VAKINHA</p>
             <p className="mt-2 max-w-md text-sm text-muted-foreground">
               As informações desta página são divulgadas pela campanha e pela família ou por responsáveis autorizados.
             </p>

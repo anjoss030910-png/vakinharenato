@@ -1,11 +1,11 @@
 // Dados oficiais da campanha. Atualize apenas com informações confirmadas pela família.
 export const GOAL = 25000;
 
-/** Total arrecadado confirmado. Deixe null até a família confirmar um valor. */
-export const CONFIRMED_TOTAL: number | null = null;
+/** Total arrecadado confirmado. */
+export const CONFIRMED_TOTAL = 13468.98;
 
-/** Data da última atualização confirmada (ex.: "28/10/2026"). */
-export const LAST_UPDATE: string | null = null;
+/** Data da última atualização confirmada. */
+export const LAST_UPDATE = "28/10/2026";
 
 /** Destinação dos recursos confirmada pela família. */
 export const FUNDS_USE: string | null = null;
