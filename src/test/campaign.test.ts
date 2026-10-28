@@ -3,7 +3,7 @@ import { CONFIRMED_TOTAL, DONATIONS, GOAL } from "@/lib/campaign";
 
 describe("campanha", () => {
   it("meta é R$ 25.000", () => expect(GOAL).toBe(25000));
-  it("sem valor arrecadado inventado", () => expect(CONFIRMED_TOTAL).toBeNull());
+  it("total arrecadado confirmado é R$ 13.468,98", () => expect(CONFIRMED_TOTAL).toBe(13468.98));
   it("cada valor usa exatamente o link fornecido", () => {
     expect(DONATIONS.map((d) => [d.value, d.url])).toEqual([
       [10, "https://link.syncpayments.com.br/F4IXUD"],
