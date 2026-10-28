@@ -215,7 +215,7 @@ function Index() {
             src={renato.url}
             alt="Renato Anjos sorrindo"
             loading="lazy"
-            className="aspect-[4/5] w-full rounded-3xl object-cover object-[75%_65%] shadow-card"
+            className="aspect-[4/5] w-full rounded-3xl object-cover object-[85%_95%] shadow-card"
           />
           <div>
             <h2 className="font-display text-3xl font-semibold text-primary md:text-4xl">Conheça a história do Renato</h2>
